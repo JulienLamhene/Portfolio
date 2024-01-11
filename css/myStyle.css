@@ -1,0 +1,16 @@
+.center_mindmap{
+    text-align: center;
+}
+
+.center_contact{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.encadre-titre{
+    border: 3px solid #dd00ff; /* Couleur de la bordure */
+    display: inline-block; /* Pour que la bordure encercle le texte */
+    font-weight: bold;
+    font-style: italic;
+}
