@@ -13,4 +13,5 @@
     display: inline-block; /* Pour que la bordure encercle le texte */
     font-weight: bold;
     font-style: italic;
+    background-color: black;
 }
