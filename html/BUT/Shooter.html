@@ -2,31 +2,30 @@
 <html lang="en">
 
 <head>
-  <title>Classification &mdash; Classifier des données</title>
+  <title>Alien Shooter &mdash; Jeu de Tir en JS</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  
+
   <meta name="description" content="">
   <meta name="keywords" content="html, css, javascript, jquery">
   <meta name="author" content="">
 
-  <link rel="stylesheet" href="css/vendor/icomoon/style.css">
-  <link rel="stylesheet" href="css/vendor/owl.carousel.min.css">
-  <link rel="stylesheet" href="css/vendor/aos.css">
-  <link rel="stylesheet" href="css/vendor/animate.min.css">
-  <link rel="stylesheet" href="css/vendor/bootstrap.min.css">
-  <link rel="stylesheet" href="css/vendor/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="../../css/vendor/icomoon/style.css">
+  <link rel="stylesheet" href="../../css/vendor/owl.carousel.min.css">
+  <link rel="stylesheet" href="../../css/vendor/aos.css">
+  <link rel="stylesheet" href="../../css/vendor/animate.min.css">
+  <link rel="stylesheet" href="../../css/vendor/bootstrap.min.css">
+  <link rel="stylesheet" href="../../css/vendor/jquery.fancybox.min.css">
 
   <!-- Theme Style -->
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/myStyle.css">
-
+  <link rel="stylesheet" href="../../css/style.css">
+  <link rel="stylesheet" href="../../css/myStyle.css">
 
 </head>
 
 <body data-spy="scroll" data-target=".site-nav-target" data-offset="200">
 
-  <nav class="unslate_co--site-mobile-menu">
+  <!-- <nav class="unslate_co--site-mobile-menu">
     <div class="close-wrap d-flex">
       <a href="#" class="d-flex ml-auto js-menu-toggle">
         <span class="close-label">Close</span>
@@ -37,16 +36,23 @@
       </a>
     </div>
     <div class="site-mobile-inner"></div>
-  </nav>
+  </nav> -->
 
   <div class="unslate_co--site-wrap">
 
     <div class="unslate_co--site-inner">
 
-      <nav class="unslate_co--site-nav site-nav-target">
+      <div class="lines-wrap">
+        <div class="lines-inner">
+          <div class="lines"></div>
+        </div>
+      </div>
+      <!-- END lines -->
+
+      <!-- <nav class="unslate_co--site-nav site-nav-target">
 
         <div class="container">
-        
+
           <div class="row align-items-center justify-content-between text-left">
             <div class="col-md-5 text-right">
               <ul class="site-nav-ul js-clone-nav text-left d-none d-lg-inline-block">
@@ -103,10 +109,10 @@
                     </li>
                     <li>
                       <a href="Pizzeria.html">API REST</a>
-                  </li>
-                  <li>
+                    </li>
+                    <li>
                       <a href="GameMake.html">MyProject (Unreal Engine)</a>
-                  </li>
+                    </li>
                     <li>
                       <a href="Spring.html">Planning d'événement</a>
                     </li>
@@ -130,15 +136,21 @@
         </div>
 
       </nav>
+       -->
+      
+      <div id="navbar"></div>
+      
       <!-- END nav -->
 
-      <div class="cover-v1 gradient-bottom-black jarallax" style="background-image: url('Image_CV/gameProgramming.jpeg');">
+      <div class="cover-v1 gradient-bottom-black jarallax"
+        style="background-image: url('../../Image_CV/gameProgramming.jpeg');">
         <div class="container">
           <div class="row align-items-center">
 
             <div class="col-md-10 mx-auto text-center">
-              <h1 class="heading" data-aos="fade-up">Classifier des données</h1>
-              <h2 class="subheading encadre-titre" data-aos="fade-up" data-aos-delay="100">Selon le nombre de voisins</h2>
+              <h1 class="heading" data-aos="fade-up">Alien Shooter</h1>
+              <h2 class="subheading encadre-titre" data-aos="fade-up" data-aos-delay="100">Jeu de tir JavaScript,
+                utilisant la bibliothèque canvas</h2>
             </div>
 
           </div>
@@ -158,62 +170,90 @@
       <div class="container">
         <div class="portfolio-single-wrap unslate_co--section" id="portfolio-single-section">
           <div class="portfolio-single-inner">
+            <h2 class="heading-portfolio-single-h2">Alien Shooter</h2>
+            <p>
+              <i>
+                Incarnez un explorateur spatial dans son vaiseau tandis que vous luttez contre des envahisseurs, dans ce
+                jeu en JavaScript
+              </i>
+              <br>
+            </p>
+            <div class="row gutter-v4 align-items-stretch mb-5">
+              <div class="col-sm-6 col-md-6 col-lg-8 blog-post-entry">
 
-            <h2 class="heading-portfolio-single-h2">Quelle est sa catégorie ?</h2>
+                <a href="../../Image_CV/Jeu_JS/Jeu_JS.png" class="grid-item blog-item w-100 h-100" data-fancybox="gal">
+                  <div class="overlay">
 
-            <div class="row justify-content-between align-items-stretch">
+                  </div>
+                  <img src="../../Image_CV/Jeu_JS/Jeu_JS.png" class="lazyload" alt="Image" />
+                </a>
 
-              <div class="col-lg-8">
-                <p><a href="Image_CV/SAE302_APPClass.png" data-fancybox="gal"><img src="Image_CV/SAE302_APPClass.png" alt="Image" class="img-fluid"></a></p>
-                <p><a href="Image_CV/ClassPoint.png" data-fancybox="gal"><img src="Image_CV/ClassPoint.png" alt="Image" class="img-fluid"></a></p>
               </div>
-              <div class="col-lg-4 pl-lg-5">
-                <div class="unslate_co--sticky">
-                  <div class="row">
-                    <div class="col-md-12 mb-4">
-                      <div class="detail-v1">
-                        <span class="detail-label">Description</span>
-                        <p>Au sein de ce projet mon équipe et moi-même devions réaliser une application de classification, c'est-à-dire selon un jeu de données précises l'algorithme séparera en groupes selon les critères établis, et une vue sous forme de nuage de points, nous est retourné.
-                        </p>
-                      </div>
-                    </div>
+              <div class="col-sm-6 col-md-6 col-lg-4 blog-post-entry">
+                <a href="../../Image_CV/Jeu_JS/Jeu_JS_Tir.png" class="grid-item blog-item w-100 h-100" data-fancybox="gal">
+                  <div class="overlay"></div>
+                  <img src="../../Image_CV/Jeu_JS/Jeu_JS_Tir.png" class="lazyload" alt="Image" />
+                </a>
+              </div>
 
-                    <div class="col-md-12 mb-4">
-                      <div class="detail-v1">
-                        <span class="detail-label">Date du projet</span>
-                        <span class="detail-val">Octobre, 2022</span>
-                      </div>
-                    </div>
-                    <div class="col-md-12 mb-4">
-                      <div class="detail-v1">
-                        <span class="detail-label">Consulter</span>
-                        <span class="detail-val"><a href="https://youtu.be/KJjL3CWOnAo">Vidéo Test</a></span>
-                      </div>
+              <div class="col-sm-6 col-md-6 col-lg-4 blog-post-entry">
+
+                <a href="../../Image_CV/Jeu_JS/Jeu_JS_losing.png" class="grid-item blog-item w-100 h-100" data-fancybox="gal">
+                  <div class="overlay"></div>
+                  <img src="../../Image_CV/Jeu_JS/Jeu_JS_losing.png" class="lazyload" alt="Image" />
+                </a>
+
+              </div>
+
+            </div>
+
+            <div class="row justify-content-between mb-5">
+              <div class="col-12 mb-5">
+                <div class="row">
+                  <div class="col-sm-6 col-md-6 col-lg-3">
+                    <div class="detail-v1">
+                      <span class="detail-label">Début du projet</span>
+                      <span class="detail-val">Décembre 2022</span>
                     </div>
                   </div>
-                </div> 
+                  <div class="col-sm-6 col-md-6 col-lg-3">
+                    <div class="detail-v1">
+                      <span class="detail-label">Statut</span>
+                      <span class="detail-val"><i>Terminé en Janvier 2023</i></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 pr-md-5">
+                <p>
+                  Commencez comme faisant parti d'un travaux pratique en javascript afin d'être familiariser avec
+                  canvas, j'ai fini par être attiré par le concept et l'ai tourner en projet personnel.
+                  <br>
+                </p>
+              </div>
+              <div class="col-md-6 pl-md-5">
+                <p>
+                  L'application avait pour but d'être un service auquel l'utilisateur pourrait se connecter, il pourrait
+                  avoir soit le rôle de prestataire ou celui de client, les fonctions permsises sur l'un étant
+                  différente de l'autre.
+                  <br>
+                  <br>
+                  Le joueur incarne un vaisseau dans l'espace où il doit éviter les attaques des ses ennemis tout en
+                  répliquant et visant le meilleur score possible avant que sa vie ne s'achêve.
+                </p>
               </div>
             </div>
-            <b> 
+            <b>
               <u>
-                  Compétences techniques acquises :
+                Compétences techniques acquises :
               </u>
             </b>
             <ul>
               <li>
-                  Maîtrise approfondis d'un langage de programmation tel que le java
+                Utilisation de la bibliothèque canvas
               </li>
               <li>
-                  Compétences en gestion de version de projet avec l'outil Git
-              </li>
-              <li>
-                  Capacité à prétraiter les données, telles que la normalisation, la standardisation et le nettoyage des données
-              </li>
-              <li>
-                  Conception d'une interfaces graphiques pour faciliter la compréhension des résultats de la classification.
-              </li>
-              <li>
-                  Compétences en algorithmie de classification
+                Triage et répartition de classe
               </li>
             </ul>
             <b>
@@ -222,33 +262,28 @@
               </u>
             </b>
             <ul>
-                <li>
-                  Esprit créatif en la conception de questions et anecdotes ludique approprié au public, donc capacité ç s'identifier à lui
-                </li>
-                <li>
-                  Capacité à coordonné le travail entre membres du groupe, et résoudre des conflits de version avec git
-                </li>
-                <li>
-                  Patience et persévérance dans le traitement et l'analyse des données
-                </li>
-                <li>
-                  Résolution de problèmes en utilisant une approche logique et méthodique
-                </li>
+              <li>
+                Explorer en profondeur les capacités d'un langage
+              </li>
+              <li>
+                Développer un intérêt, une passion pour un projet professionnel que l'on souhaite le continuer plus
+                personnellement
+              </li>
             </ul>
           </div>
         </div>
       </div>
-    </div> 
+    </div>
 
     <footer class="unslate_co--footer unslate_co--section">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-md-7">
-            
-            <div class="footer-site-logo"><a href="#">Julien Lamhene<span>.</span>CV</a></div>
+
+            <div class="footer-site-logo"><a href="#">Julien Lamhene<span>.</span> CV</a></div>
 
             <ul class="footer-site-social">
-              <li>julien.lamhene27@gmail.fr</li>
+              <li>julien.lamhene.etu@univ-lille.fr</li>
               <br>
               <li><a href="https://www.linkedin.com/in/julien-lamhene-b83370221/">Linkedn</a></li>
             </ul>
@@ -266,10 +301,10 @@
     <div class="site-loader"></div>
   </div>
 
-  <script src="js/scripts-dist.js"></script>
-  <script src="js/main.js"></script>
+  <script src="../../js/scripts-dist.js"></script>
+  <script src="../../js/main.js"></script>
+  <script src="../../js/navigation.js"></script>
 
-  
 </body>
 
 </html>
