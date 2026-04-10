@@ -26,7 +26,7 @@
 
 <body data-spy="scroll" data-target=".site-nav-target" data-offset="200">
 
-  <nav class="unslate_co--site-mobile-menu">
+  <!-- <nav class="unslate_co--site-mobile-menu">
     <div class="close-wrap d-flex">
       <a href="#" class="d-flex ml-auto js-menu-toggle">
         <span class="close-label">Close</span>
@@ -37,13 +37,11 @@
       </a>
     </div>
     <div class="site-mobile-inner"></div>
-  </nav>
-
+  </nav> -->
 
   <div class="unslate_co--site-wrap">
 
     <div class="unslate_co--site-inner">
-
       <div class="lines-wrap">
         <div class="lines-inner">
           <div class="lines"></div>
@@ -51,7 +49,7 @@
       </div>
       <!-- END lines -->
 
-      <nav class="unslate_co--site-nav site-nav-target">
+      <!-- <nav class="unslate_co--site-nav site-nav-target">
 
         <div class="container">
 
@@ -66,10 +64,10 @@
                   <a href="#services-section" class="nav-link">Formations</a>
                   <ul class="dropdown">
                     <li>
-                      <a href="bac.html">Bac Générale</a>
+                      <a href="html/bac.html">Bac Générale</a>
                     </li>
                     <li>
-                      <a href="BUT.html">BUT Informatique</a>
+                      <a href="html/BUT.html">BUT Informatique</a>
                     </li>
                   </ul>
                 </li>
@@ -137,7 +135,10 @@
           </div>
         </div>
 
-      </nav>
+      </nav> -->
+      
+      <div id="navbar"></div>
+      
       <!-- END nav -->
 
       <div class="cover-v1 jarallax" style="background-image: url('Image_CV/gameProgramming.jpeg');" id="home-section">
@@ -308,13 +309,11 @@
             <h2 class="heading-h2 text-center divider"><span class="gsap-reveal">Mes Compétences</span></h2>
             <span class="gsap-reveal"><img src="Image_CV/divider.png" alt="divider" width="76"></span>
           </div>
-
-
-          <div class="row pt-5">
+          <!-- <div class="row pt-5">
             <div class="col-6 col-sm-6 mb-5 mb-lg-0 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="0">
               <div class="counter-v1 text-center">
                 <span class="number-wrap">
-                  <span class="number number-counter" data-number="90">0</span>
+                  <span class="number number-counter" data-number="90"></span>
                   <span class="append-text">%</span>
                 </span>
                 <span class="counter-label">Java</span>
@@ -347,28 +346,66 @@
                 <span class="counter-label">Unreal Engine</span>
               </div>
             </div>
+          </div> -->
+        
+          <article>
+            <div id="skills-list">
+              <div class="skill-logo">
+                <img src="Image_CV/Icon/CSharp-Color.png" alt>
+                <p>C#</p>
+              </div>
+              <div class="skill-logo">
+                <img src="Image_CV/Icon/Unity-Color.png" alt>
+                <p>Unity</p>
+              </div>
+              <div class="skill-logo">
+                <img src="Image_CV/Icon/UE-Color.png" alt>
+                <p>Unreal Engine</p>
+              </div>
+              <div class="skill-logo">
+                <img src="Image_CV/Icon//programmation.png" alt>
+                <p>Java</p>
+              </div>
+              <div class="skill-logo">
+                <img src="Image_CV/Icon//react.png" alt>
+                <p>React</p>
+              </div>
+              <div class="skill-logo">
+                <img src="Image_CV/Icon/HTML-Color.png" alt>
+                <p>HTML/CSS</p>
+              </div>
+              <div class="skill-logo">
+                <img src="Image_CV/Icon/Adobe-Color.png" alt>
+                <p>Adobe</p>
+              </div>
+              <div class="skill-logo">
+                <img src="Image_CV/Icon/VSCode-Color.png" alt>
+                <p>Visual Studio Code</p>
+              </div>
+            </div>
+          </article>
+
+          <div class=center_mindmap>
+            <p>
+              <a href="Image_CV/MINDMAP SKILLS.png" class="btn btn-outline-pill btn-custom-light">MindMap de Mes
+                compétences</a>
+            </p>
+            <!-- <p>
+              <a href="Skills.html" class="btn btn-outline-pill btn-custom-light">Toutes les compétences</a>
+            </p> -->
           </div>
+
         </div>
       </div>
-      <div class=center_mindmap>
-        <p>
-          <a href="Image_CV/MINDMAP SKILLS.png" class="btn btn-outline-pill btn-custom-light">MindMap de Mes
-            compétences</a>
-        </p>
-        <p>
-          <a href="Skills.html" class="btn btn-outline-pill btn-custom-light">Toutes le compétences</a>
-        </p>
-      </div>
+
       <!-- END .counter -->
-
-
 
       <div class="unslate_co--section" id="journal-section">
         <div class="container">
           <div class="section-heading-wrap text-center mb-5">
             <h2 class="heading-h2 text-center divider"><span class="gsap-reveal">Mes Projets</span></h2>
             <span class="gsap-reveal"><img src="Image_CV/divider.png" alt="divider" width="76"></span>
-            <p><i>Ce ne sont que quelques projet dérouler le menu pour en connaître d'autres</i></p>
+            <!-- <p><i>Ce ne sont que quelques projet dérouler le menu pour en connaître d'autres</i></p> -->
           </div>
 
 
@@ -387,7 +424,72 @@
               </a>
             </div> -->
 
+            <div class="col-sm-6 col-md-6 col-lg-8 blog-post-entry" data-aos="fade-up" data-aos-delay="100">
+              <a href="DifferArt.html" class="grid-item blog-item w-100 h-100">
+                <div class="overlay">
+                  <div class="portfolio-item-content">
+                    <h3>Puzzle Game</h3>
+                    <p class="post-meta">Jeu de différences, en partenariat avec le Louvre-Lens <span
+                        class="small">&bullet;</span> 5 mins read</p>
+                  </div>
+                </div>
+                <img src="Image_CV/E-Artsup/E_ARTSUP_LOGO_PNG.png" class="lazyload" alt="Image" />
+              </a>
+            </div>
+
             <div class="col-sm-6 col-md-6 col-lg-4 blog-post-entry" data-aos="fade-up" data-aos-delay="100">
+              <a href="Unlock.html" class="grid-item blog-item w-100 h-100">
+                <div class="overlay">
+                  <div class="portfolio-item-content">
+                    <h3>Escape Game</h3>
+                    <p class="post-meta">Echappez vous de l'Asyle avant que Batman vous rattrape <span
+                        class="small">&bullet;</span> 5 mins read</p>
+                  </div>
+                </div>
+                <img src="Image_CV/E-Artsup/UnlockArkham/Home.png" class="lazyload" alt="Image" />
+              </a>
+            </div>
+
+            <div class="col-sm-6 col-md-6 col-lg-9 blog-post-entry" data-aos="fade-up" data-aos-delay="100">
+              <a href="GGJ2026.html" class="grid-item blog-item w-100 h-100">
+                <div class="overlay">
+                  <div class="portfolio-item-content">
+                    <h3>Mask & Hue</h3>
+                    <p class="post-meta">Plateformer retro <span
+                        class="small">&bullet;</span> 5 mins read</p>
+                  </div>
+                </div>
+                <img src="Image_CV/E-Artsup/Mask&Hue/logo.png" class="lazyload" alt="Image" />
+              </a>
+            </div>
+
+            <div class="col-sm-6 col-md-6 col-lg-3 blog-post-entry" data-aos="fade-up" data-aos-delay="100">
+              <a href="DodgeDungeon.html" class="grid-item blog-item w-100 h-100">
+                <div class="overlay">
+                  <div class="portfolio-item-content">
+                    <h3>DodgeDungeon</h3>
+                    <p class="post-meta">Jeu d'aventure 2D<span
+                        class="small">&bullet;</span> 5 mins read</p>
+                  </div>
+                </div>
+                <img src="Image_CV/E-Artsup/Mask&Hue/logo.png" class="lazyload" alt="Image" />
+              </a>
+            </div>
+
+            <div class="col-sm-6 col-md-6 col-lg-12 blog-post-entry" data-aos="fade-up" data-aos-delay="100">
+              <a href="GGJ2025.html" class="grid-item blog-item w-100 h-100">
+                <div class="overlay">
+                  <div class="portfolio-item-content">
+                    <h3>FizzyLagoon</h3>
+                    <p class="post-meta">Jeu de Mixage de cocktails et satifaction client <span
+                        class="small">&bullet;</span> 5 mins read</p>
+                  </div>
+                </div>
+                <img src="Image_CV/E-Artsup/FizzyLagoon/menu image.png" class="lazyload" alt="Image" />
+              </a>
+            </div>
+
+            <div class="col-sm-6 col-md-6 col-lg-6 blog-post-entry" data-aos="fade-up" data-aos-delay="100">
               <a href="ClassicQuiz.html" class="grid-item blog-item w-100 h-100">
                 <div class="overlay">
                   <div class="portfolio-item-content">
@@ -414,7 +516,7 @@
               </a>
             </div> -->
 
-            <div class="col-sm-6 col-md-6 col-lg-8 blog-post-entry" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-sm-6 col-md-6 col-lg-6 blog-post-entry" data-aos="fade-up" data-aos-delay="100">
               <a href="Enquete404.html" class="grid-item blog-item w-100 h-100">
                 <div class="overlay">
                   <div class="portfolio-item-content">
@@ -495,6 +597,13 @@
 
   <script src="js/scripts-dist.js"></script>
   <script src="js/main.js"></script>
+  <script>
+    fetch("/nav.html")
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById("navbar").innerHTML = data;
+    });
+  </script>
 
 </body>
 

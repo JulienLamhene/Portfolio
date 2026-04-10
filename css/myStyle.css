@@ -1,5 +1,6 @@
 .center_mindmap{
     text-align: center;
+    padding-top: 10%;
 }
 
 .center_contact{
@@ -14,4 +15,35 @@
     font-weight: bold;
     font-style: italic;
     background-color: black;
+}
+
+#skills-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  text-align: center;
+}
+
+.skill-logo img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+.skill-logo p {
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  #skills-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  #skills-list {
+    grid-template-columns: 1fr;
+  }
 }
